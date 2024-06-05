@@ -1,4 +1,11 @@
+
 This is a Telegram Bot written in Python for Downloading Videos From Terabox.
+
+
+## Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Yashdeepsharma2/Tera-downloader)
+
 
 Terabox API/Base Code [**HERE**](https://t.me/Privates_Bots/7212).
 
