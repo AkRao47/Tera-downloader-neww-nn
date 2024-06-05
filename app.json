@@ -1,1 +1,39 @@
 
+{
+  "name": "Tera Downloader",
+  "description": "A description of your app",
+  "repository": "https://github.com/Yashdeepsharma2/Tera-downloader",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token",
+      "required": true
+    },
+    "TELEGRAM_API": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "TELEGRAM_HASH": {
+      "description": "Your Telegram API Hash",
+      "required": true
+    },
+    "FSUB_ID": {
+      "description": "Your FSub ID",
+      "required": true
+    },
+    "DUMP_CHAT_ID": {
+      "description": "Your Dump Chat ID",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/amivin/aria2-heroku.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ]
+}
